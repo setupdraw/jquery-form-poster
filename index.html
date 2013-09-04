@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Setupdraw jQuery Form Poster Plugin</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jquery.poster.js"></script>
+	<script src="js/general.js"></script>
+</head>
+<body>
+	<form id="my-form" action="form.php" method="post">
+		<h1>jQuery Form Poster Plugin</h1>
+		
+		<label>Title</label>
+		<select name="title">
+			<option value="">Please select</option>
+			<option value="Mr">Mr</option>
+			<option value="Miss">Miss</option>
+		</select>
+		
+		<label>Forename</label>
+		<input type="text" name="forename" placeholder="Your first name">
+		
+		<label>Surname</label>
+		<input type="text" name="surname" placeholder="Your last name">
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
