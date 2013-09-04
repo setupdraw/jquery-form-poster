@@ -7,7 +7,7 @@ index.html 				- HTML form to test
 form.php				- serverside file
 
 <h2>Usage</h2>
-1. Add jquery.poster.js after JQuery in the document head.
+1. Add jquery.poster.js after jQuery in the document head.
 
 2. Use $('#my-form').formposter(); in your js document ready, where #my-form is the ID of your form.
 
