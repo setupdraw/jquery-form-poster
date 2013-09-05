@@ -21,8 +21,4 @@ form.php				- serverside file
 	});
 	```
 
-3.  Include the action attribute as usual to your HTML form.CSS file.
-
-4.  Copy the image folder, replacing the slider images with your own. Retain the naming format.
-
-5. Include the action attribute as usual in your HTML form.
+3.  Include the action attribute as usual in your HTML form.
