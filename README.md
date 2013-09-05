@@ -1,5 +1,6 @@
 <h2>Setupdraw jQuery Form Poster Plugin</h2>
-A plugin to remove the need to write repeated jQuery ajax posts for HTML forms.
+A plugin to simplify applying an ajax post to HTML forms.<br />
+Also removes the need to write ajax code repeatedly.
 
 <h2>Important source files</h2>
 js/jquery.poster.js 	- jQuery and JavaScript<br />
