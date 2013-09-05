@@ -6,28 +6,29 @@
 (function($){
    var FormPoster = function(element) {
        var obj = $(element);
-       var obj = this;
    };
 
-   $.fn.formposter = function() {
+   $.fn.formposter = function(options) {
        return this.each(function() {
        	   var element    = $(this);
            var formposter = new FormPoster(this);
-           element.data('formposter', formposter);
 
            // AJAX things
-           $(element).submit(function() {
+           $(element).submit(function() {	
+           		// Remove any previous messages
+           		$('#success,#error').remove();
+           		
            		$.ajax({
 					url: $(this).attr('action'),
 					type: "post",
 					data: $(this).serialize(),
 					success: function(data) {
 						// Show a success message
-						$(element).prepend('<div id="success">Thank you, form successfully posted!</div>');
+						$(element).prepend('<div id="success">'+options.success+'</div>');
 					},
 					error: function() {
 						// Do some error handling
-						$(element).prepend('<div id="error">An error occurred, please try again.</div>');
+						$(element).prepend('<div id="error">'+options.error+'</div>');
 					}
 				});
            	
