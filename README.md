@@ -25,6 +25,4 @@ form.php				- serverside file
 
 4.  Copy the image folder, replacing the slider images with your own. Retain the naming format.
 
-5.  Change the slider details in info variable - js/slider.js line 9 to 25.
-=======
-3. Include the action attribute as usual to your HTML form.
+5. Include the action attribute as usual to your HTML form.
