@@ -1,5 +1,6 @@
 /*
 *	Setupdraw - Rob Dunne
+*	http://setupdraw.com
 *	September 2013
 *	jquery.poster.js
 */
